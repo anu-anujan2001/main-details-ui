@@ -14,17 +14,8 @@ export function TTab({ label, active, onClick }: TTabProps) {
       className={[
         "relative h-11 px-10 text-sm font-semibold transition-all",
         active
-          ? [
-              "bg-[#1a2942] text-white",
-              "rounded-t-2xl",
-              "shadow-lg",
-              "z-10",
-            ].join(" ")
-          : [
-              "bg-gray-100 text-gray-600",
-              "rounded-t-xl",
-              "hover:bg-gray-200",
-            ].join(" "),
+          ? "bg-[#1a2942] text-white rounded-t-2xl shadow-lg z-10"
+          : "bg-gray-100 text-gray-600 rounded-t-xl hover:bg-gray-200",
       ].join(" ")}
     >
       {label}
@@ -32,4 +23,4 @@ export function TTab({ label, active, onClick }: TTabProps) {
   );
 }
 
-export type { TTabProps as TTab };
+export type { TTabProps };

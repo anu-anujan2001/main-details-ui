@@ -35,6 +35,21 @@ export default function Sidebar() {
           <SquareMousePointer className="w-5 h-5" />
           Menu5
         </a>
+        
+        <a href="#" className="flex flex-col items-center gap-1 text-zinc-700">
+          <SquareMousePointer className="w-5 h-5" />
+          Menu6
+        </a>
+
+        <a href="#" className="flex flex-col items-center gap-1 text-zinc-700">
+          <SquareMousePointer className="w-5 h-5" />
+          Menu7
+        </a>
+
+        <a href="#" className="flex flex-col items-center gap-1 text-zinc-700">
+          <SquareMousePointer className="w-5 h-5" />
+          Menu8
+        </a>
       </div>
     </div>
   );

@@ -21,7 +21,9 @@ export default function TabNavigation() {
         ))}
       </div>
 
-      <button className="px-7 py-2 bg-[#dc2626] text-white text-sm font-semibold rounded-full hover:bg-[#b91c1c] transition-colors shadow-sm">
+      <button className="h-10 px-10 rounded-full text-white text-sm font-semibold
+                         bg-linear-to-r from-[#b22a3b] to-[#0b1d39]
+                         shadow-[0_10px_18px_rgba(0,0,0,0.25)]">
         Add T
       </button>
     </div>

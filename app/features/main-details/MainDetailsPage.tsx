@@ -417,13 +417,9 @@ export default function MainDetailsPage() {
 
           {/* Action Buttons - Matching Document Design */}
           <div className="flex justify-end gap-3 pt-2">
-            <button className="px-8 py-2.5 bg-white border-2 border-gray-300 text-gray-700 text-sm font-semibold rounded-full hover:bg-gray-50 hover:border-gray-400 transition-all">
-              Cancel
-            </button>
-            <button className="px-8 py-2.5 bg-white border-2 border-gray-300 text-gray-700 text-sm font-semibold rounded-full hover:bg-gray-50 hover:border-gray-400 transition-all">
-              Save Draft
-            </button>
-            <button className="px-8 py-2.5 bg-[#dc2626] text-white text-sm font-semibold rounded-full hover:bg-[#b91c1c] transition-all shadow-md">
+            <button className="h-10 px-10 rounded-full text-white text-sm font-semibold
+                         bg-linear-to-r from-[#b22a3b] to-[#0b1d39]
+                         shadow-[0_10px_18px_rgba(0,0,0,0.25)]">
               Submit
             </button>
           </div>

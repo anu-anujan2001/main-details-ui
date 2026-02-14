@@ -1,5 +1,5 @@
 "use client";
-
+import type { LucideIcon } from "lucide-react";
 import { Check, MapPin, Building2, Image as ImageIcon, User } from "lucide-react";
 
 type StepKey = "Location" | "Sub1" | "Sub2" | "Sub3";
@@ -7,7 +7,7 @@ type StepKey = "Location" | "Sub1" | "Sub2" | "Sub3";
 type Step = {
   key: StepKey;
   label: string;
-  icon: any;
+  icon: LucideIcon;
 };
 
 function RailDot({ done }: { done?: boolean }) {
@@ -30,7 +30,7 @@ function IconCircle({
   label,
   active,
 }: {
-  icon: any;
+  icon: LucideIcon;
   label: string;
   active?: boolean;
 }) {
