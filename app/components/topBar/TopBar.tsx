@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { BellDot, User, ChevronRight, ChevronsRight, Repeat2 } from "lucide-react";
+import { BellDot, User, ChevronRight, ChevronsRight, ArrowLeftRight } from "lucide-react";
 import StepItem from "./StepItem";
 
 export default function TopBar() {
@@ -44,7 +44,7 @@ export default function TopBar() {
         </div>
 
         <button className="w-9 h-9 rounded-full hover:bg-zinc-100 flex items-center justify-center">
-          <Repeat2 className="w-5 h-5 text-zinc-700" />
+          <ArrowLeftRight  className="w-5 h-5  text-zinc-700" />
         </button>
       </div>
 
